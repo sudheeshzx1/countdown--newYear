@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family:adelia;
+    src: url(adelia.otf);
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url(bg3.jpg);
+    background-repeat: no-repeat;
+    object-fit: fill;
+background-position: center;
+color: white;
+}
+.counter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+.newyear{
+    font-family: adelia;
+    font-weight: 200;
+    color: papayawhip;
+
+}
+.box{
+    color: rgb(239, 236, 232);
+    font-size: 25px;
+}
